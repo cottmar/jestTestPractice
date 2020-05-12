@@ -1,3 +1,7 @@
+// everything with a value is true
+// everything without a value is false
+// null, undefined, NaN, zero, negatives are false
+
 test('null', () => {
   const n = null;
   expect(n).toBeNull();

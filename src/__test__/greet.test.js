@@ -11,4 +11,8 @@ test('Expect an empty string to return null', () => {
 test('Should return hello world', () => {
   expect(greet('Cara')).toMatch('Hello world!');
 });
+
+test('There is no I in my name', () => {
+  expect('Cara').not.toMatch(/I/);
+})
  

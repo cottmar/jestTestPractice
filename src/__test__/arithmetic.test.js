@@ -23,3 +23,12 @@ test('If paramets passed are not numbers, return null', () => {
 test('If no parameter is passed, return null', () => {
   expect(arithmetic.sub()).toBeNull();
 });
+
+test('two plus two', () => {
+  const value = 2 + 2;
+  expect(value).toBeGreaterThan(2);
+  expect(value).toBeGreaterThanOrEqual(3.5);
+  expect(value).toBeLessThan(5);
+  expect(value).toBe(4);
+  expect(value).toEqual(4);
+})
